@@ -29,4 +29,15 @@ layout: default
     When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
     \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
   </p> -->
+
+
+  <p>Testing to see how this works.</p>
+  {% for tag in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
 </body>
