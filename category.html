@@ -19,7 +19,7 @@ layout: default
   <h1 style="padding-bottom:1em">Posts by Category</h1>
   <h2>Algebra: </h2>
   <ul class="a">
-    {% for post in site.categories.algebra %}
+    {% for post in site.categories.Algebra %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> <br>
       {{ post.excerpt }} </li>
     {% endfor %}
@@ -27,7 +27,7 @@ layout: default
 
   <h2>Analysis: </h2>
   <ul class="a">
-    {% for post in site.categories.analysis %}
+    {% for post in site.categories.Analysis %}
       <li><a href="{{ post.url }}">{{ post.title }}</a> <br>
       {{ post.excerpt }} </li>
     {% endfor %}
