@@ -31,18 +31,18 @@ layout: default
   </p> -->
 
 
-  {% for tag in site.categories %}
+  <!-- {% for tag in site.categories %}
   <h3>{{ tag[0] }}</h3>
   <ul>
     {% for post in tag[1] %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-{% endfor %}
+{% endfor %} -->
 
-  <p>1Testing to see how this works.</p>
+  <p>2Testing to see how this works.</p>
   <ul>
-    {% for post in site.tags.algebra %}
+    {% for post in site.categories.algebra %}
       <li><a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
