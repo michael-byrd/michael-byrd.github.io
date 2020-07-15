@@ -23,7 +23,7 @@ excerpt_separator: <!--...-->
 <p>Some examples of groups include: the set of integers, symmetries of a regular polygon, and the numbers on a clock.</p>
 
 <h3>Integers</h3>
-<p>The set of integers, \(\mathbb{Z}\), forms a group under the operation addition.</p>
+<p>The set of integers, \(\mathbb{Z}\), form a group under the operation addition.</p>
   <ul>
     <li>Given two integers, \(x\) and \(y\), we have that \(x+y\) is also an integer. </li>
     <li>The integers are associative under addition.</li>
@@ -32,11 +32,14 @@ excerpt_separator: <!--...-->
   </ul>
 
 <h3>Symmetries of a triangle.</h3>
-<p>The set of symmetries of a triangle (or any regular polygon) forms a group under the operation composition.</p>
+<p>The set of symmetries of a triangle (or any regular polygon) form a group under the operation composition.
+  We will consider these symmetries in two categories, rotations and flips.</p>
 <br>
-<p>We will consider these symmetries in two categories, rotations and flips.
-  Since we are working with a triangle, we have that rotations by multiples of
+<p> Since we are working with a triangle, we have that counter-clockwise rotations by multiples of
   \(120\) degrees are symmetric operations. If we rotate a triangle by 0 degrees,
-  we essentialy leave the triangle unchanged, which can be thought of as the identity operation.
-Any composition of two rotations is again a rotation, therefore we have closure under the rotation operation.</p>
+  we essentialy leave the triangle unchanged, which can be thought of as the identity operation, we will denote this \(e\).
+Any composition of two rotations is again a rotation, therefore we have closure under the rotation operation.
+ Let the element \(r\) represent the counter-clockwise rotation of \(120\) degrees. Note that operation \( r \circ r\) is a rotation by \(240\) degrees,
+we will denote this \(r^2.\) Rotating a third time will return the triangle to its original state, therefore \(r^2 \circ r = r^3 = e\). Using this identity,
+we have that the only distinct rotations are \(e, r, r^2\).</p>
 <img style="width: 100%;" src="/assets/images/tri_rotation.png" alt="Rotation of a triangle">
