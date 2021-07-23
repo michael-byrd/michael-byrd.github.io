@@ -1,0 +1,70 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.navclass {
+  background: none;
+}
+
+.aclass {
+  background: #990000;
+}
+a {
+  color: #CC0000;
+}
+p {
+  color: #F2F2F2;
+}
+
+li {
+  color: #F2F2F2;
+}
+
+ul {
+  list-style-image:none !important;
+  list-style-type:bullet !important;
+}
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+​
+.list {
+  float: left;
+  list-style-image: none;
+  // display: inline;
+}
+​
+.listLink{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+​
+/* Change the link color to #111 (black) on hover */
+.listLink a:hover {
+  background-color: #111;
+
+}
+section {
+    #title{
+      margin: 0 0 0px 0;
+      padding: 0 0 0px 0;
+        p {
+           color: #F2F2F2;
+        }
+    }
+}
+
+ul.a{
+  list-style-image:none;
+  list-style-type:bullet;
+}
