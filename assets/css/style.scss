@@ -21,6 +21,11 @@ li {
   color: #F2F2F2;
 }
 
+ul {
+  list-style-image:none !important;
+  list-style-type:bullet !important;
+}
+
 .nav {
   list-style-type: none;
   margin: 0;
