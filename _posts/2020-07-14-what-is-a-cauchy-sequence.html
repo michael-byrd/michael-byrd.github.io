@@ -5,7 +5,21 @@ category: [Analysis, Sequences]
 excerpt_separator: <!--...-->
 ---
 
-
+<head>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+  <!-- <style>
+      background-color : #323232;
+  </style> -->
+</head>
 
 <p>In this post, we talk about the basics of Cauchy sequences.</p><!--...-->
 <h3>What is a Cauchy Sequence?</h3>
@@ -14,4 +28,4 @@ excerpt_separator: <!--...-->
 
 <p>Formally, for every \(\epsilon > 0,\) there exists an \( N \in \mathbb{N} \) such that \( \left| x_n - x_m \right| < \epsilon \) for all \(m,n \geq N\).</p>
 
-<p>$x = 5$</p>
+<p>$x = 1$</p>
