@@ -3,7 +3,7 @@
 title: Michael Byrd
 description: Mathematics Ph.D. student at Clemson University
 
-baseurl: / #name of GitHub repository
+baseurl: "" #name of GitHub repository
 url: https://michael-byrd.github.io #custom url to be used instead of GitHub repository
 email: mbyrd6@clemson.edu
 
