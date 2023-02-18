@@ -1,1 +1,0 @@
-# michael-byrd.github.io

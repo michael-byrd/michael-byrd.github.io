@@ -1,20 +1,14 @@
 ---
 layout: default
 ---
-<body>
-  <div id="header">
-    <ul class="nav">
-    <li class="list" style="float:left; list-style-image: none; padding: 10px 10px 10px 10px;"><a href="/index.html" class="listLink">Home</a></li>
-    <li class="list" style="float:left; list-style-image: none; padding: 10px 10px 10px 10px;"><a href="/education.html" class="listLink">Education</a></li>
-    <li class="list" style="float:left; list-style-image: none; padding: 10px 10px 10px 10px;"><a href="/publications.html" class="listLink">Publications</a></li>
-    <li class="list" style="float:left; list-style-image: none; padding: 10px 10px 10px 10px;"><a href="/blog.html" class="listLink">Blog</a></li>
-    <li class="list" style="float:left; list-style-image: none; padding: 10px 10px 10px 10px;"><a href="/contact.html" class="listLink">Contact</a></li>
-    <!-- <li class="list"><a href="./projects.html" class="listLink">Blog</a></li>
-    <li class="list"><a href="./contact.html" class="listLink">Contact</a></li> -->
-  </ul>
-  </div><!-- end header -->
+<h1 class="post-headline">{{page.title}}</h1>
+<p class="meta"><small>{{page.date | date: '%B %d, %Y'}}</small></p>
 
-  <h1>{{ page.title }}</h1>
-  <p>{{ page.date | date_to_string }}</p>
-  {{ content }}
-</body>
+{{content}}
+
+<!-- Comments only for posts -->
+{% if page.path contains '_posts' %}
+    {% if site.disqus-shortname %}
+        {% include disqus.html %}
+    {% endif %}
+{% endif %}
