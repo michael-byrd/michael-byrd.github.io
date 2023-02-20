@@ -13,10 +13,10 @@ permalink: /blog/:year/:title/
 paginate_path: /blog/page:num/
 
 # Social media links in footer
-twitter: "https://twitter.com/michael_byrd314"
+twitter: "michael_byrd314"
 # linkedin: "#"
 # stackoverflow: "#"
-github: "https://github.com/michael-byrd"
+github: "michael-byrd"
 # researchgate: "#"
 # orcid: "#"
 # quora: "#"
