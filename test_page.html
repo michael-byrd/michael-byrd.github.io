@@ -12,8 +12,9 @@ published: true
 Your browser does not support the video tag.
 </video>
 
-<code>from manim import *
-
+<pre>
+<code>
+from manim import *
 class FollowingGraphCamera(MovingCameraScene):
     def construct(self):
         self.camera.frame.save_state()
@@ -37,4 +38,6 @@ class FollowingGraphCamera(MovingCameraScene):
         self.play(MoveAlongPath(moving_dot, graph, rate_func=linear))
         self.camera.frame.remove_updater(update_curve)
 
-        self.play(Restore(self.camera.frame))</code>
+        self.play(Restore(self.camera.frame))
+</code>
+</pre>
