@@ -13,7 +13,7 @@ Your browser does not support the video tag.
 </video>
 
 <pre>
-<code>
+  <code class="language-python line-numbers">
 from manim import *
 class FollowingGraphCamera(MovingCameraScene):
     def construct(self):
@@ -39,5 +39,5 @@ class FollowingGraphCamera(MovingCameraScene):
         self.camera.frame.remove_updater(update_curve)
 
         self.play(Restore(self.camera.frame))
-</code>
+      </code>
 </pre>
