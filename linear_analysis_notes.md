@@ -15,5 +15,5 @@ such that, for all $x, y, z \in V$ and all $\lambda \in \mathbb{C},$
 An *inner product space* is a pair $(V, (\cdot, \cdot))$ where $V$ is a complex vector space and $(\cdot, \cdot)$
 is an inner product on $V.$
 
-
-qwe
+**Definition** - The *norm* of a vector $x$ in an inner product space is defined to be $\sqrt{ (x,x) }.$ It is written
+$\lvert \lvert x \rvert \rvert$. 
