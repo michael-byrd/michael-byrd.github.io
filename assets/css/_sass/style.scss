@@ -193,8 +193,30 @@ blockquote {
 
 /* Math Stuff */
 
-.definition{
+.definition {
   border-style: solid;
-  border-color: #f7f7f7;
+  border-color: #f02822;
   padding: 5px;
+  margin-bottom: 5%;
+}
+
+.theorem {
+  border-style: solid;
+  border-color: #e55b13;
+  padding: 5px;
+  margin-bottom: 5%;
+}
+
+.proof {
+  border-style: solid;
+  border-color: #592693;
+  padding: 5px;
+  margin-bottom: 5%;
+}
+
+.example {
+  border-style: solid;
+  border-color: #00fc24;
+  padding: 5px;
+  margin-bottom: 5%;
 }
