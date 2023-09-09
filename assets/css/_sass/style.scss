@@ -152,8 +152,8 @@ blockquote {
     height: 180px;
   }
   @include media-query($on-phone){
-    height: 380px;
-    width: 180px;
+    height: 180px;
+    width: 380px;
   }
 }
 
