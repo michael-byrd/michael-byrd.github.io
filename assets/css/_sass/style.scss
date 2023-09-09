@@ -151,6 +151,9 @@ blockquote {
   @include media-query($on-palm) {
     height: 180px;
   }
+  @include media-query($on-phone){
+    height: 180px;
+  }
 }
 
 /* Horizontal Divider */
