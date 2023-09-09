@@ -153,6 +153,7 @@ blockquote {
   }
   @include media-query($on-phone){
     height: 180px;
+    width: 180px;
   }
 }
 
